@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Leonardo Figueroa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">CV Leo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item item">
+                            <a class="nav-link" href="index.html#work-experience">Experiencia Laboral</a>
+                        </li>
+                        <li class="nav-item item">
+                            <a class="nav-link" href="index.html#education">Educación</a>
+                        </li>
+                        <li class="nav-item item">
+                            <a class="nav-link" href="index.html#skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item item">
+                            <a class="nav-link" href="index.html#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item item active">
+                            <a class="nav-link" href="#">Portafolio</a>
+                        </li>
+                        <li class="nav-item item">
+                            <a class="nav-link" href="index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="page cv-page">
+        <section class="cv-block  border-bottom  ">
+            <h2 class="text-center">Proyectos Laborales</h2>
+            <div class="container">
+                <!--CARDS LABORALES-->
+                <div class="card-group px-5  ">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card mt-4">
+                                <img src="./assests/images/ze-login.png" class="card-img-top" alt="Zona Estudiantes">
+                                <div class="card-body">
+                                    <h5 class="card-title cardTitle">Zona Estudiantes</h5>
+                                    <p class="card-text">Sitio que permite a los estudiantes revisar su avance semestral, inscribir asignturas, realizar solicitudes, etc.</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                            data-bs-target="#card-1">
+                                            Ver imágenes
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal primera card-->
+                        <div class="modal fade" id="card-1" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Zona Estudiantes</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--CAROUSEL-->
+                                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active text-black" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                                            </div>
+                                            <div class="carousel-inner"
+                                                style="width:100%; max-height: 100vh !important;">
+                                                <div class="carousel-item active">
+                                                    <div class="d-flex justify-content-center ">
+                                                        <img src="./assests/images/ze-login.png" class="img-fluid"
+                                                            alt="Login">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ze-notas.png" class="img-fluid"
+                                                            alt="Notas Parciales">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ze-cambia-nombre.png"
+                                                            class="img-fluid" alt="Cambiar Nombre">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ze-pago-cuotas.png"
+                                                            class=" img-fluid" alt="Pagar Cuotas">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Anterior</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Siguiente</span>
+                                            </button>
+                                        </div>
+                                        <!--FIN CAROUSEL-->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIN Modal primera card-->
+
+                        <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card mt-4">
+                                <img src="./assests/images/ze-justificacion-600x400.png" class="card-img-top"
+                                    alt="Justificación Inasistencia">
+                                <div class="card-body flex-column align-content-end">
+                                    <h5 class="card-title cardTitle">Justificación Inasistencia</h5>
+                                    <p class="card-text">Sitio que permite a los estudiantes ingresar una solicitud de justificación de inasistencia.</p>
+                                    <div class="d-flex justify-content-center align-items-end border-top mt-2 p-2">
+                                        <button type="button" class="btn btn-outline-primary mt-auto" data-bs-toggle="modal"
+                                            data-bs-target="#card-2">
+                                            Ver imágenes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal segunda card-->
+                        <div class="modal fade" id="card-2" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel2">Justificación Asistencia
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--CAROUSEL-->
+                                        <div id="carouselExampleIndicators2" class="carousel carousel-dark slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators2"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner"
+                                                style="width:100%; max-height: 100vh !important;">
+                                                <div class="carousel-item active">
+                                                    <div class="d-flex justify-content-center ">
+                                                        <img src="./assests/images/ze-justificacion-600x400.png"
+                                                            class="img-fluid" alt="Ingresar Justificación">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ze-justificacion-respuesta-600x400.png"
+                                                            class="img-fluid" alt="Seleccionar justificación">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ze-justificacion-respuesta-2-600x400.png"
+                                                            class="img-fluid" alt="Editar Justificación">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Anterior</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Siguiente</span>
+                                            </button>
+                                        </div>
+                                        <!--FIN CAROUSEL-->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIN Modal segunda card-->
+
+                        <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card mt-4">
+                                <img src="./assests/images/za-registro.png" class="card-img-top" alt="Zona Academicos">
+                                <div class="card-body">
+                                    <h5 class="card-title cardTitle">Zona Academicos</h5>
+                                    <p class="card-text">Sitio que permite a los Docentes administrar sus actividades curriculares, aquí pueden ingresar el regstro de contenidos, asistencia, notas,enviar correos, etc.</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                            data-bs-target="#card-3">
+                                            Ver imágenes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal tercera card-->
+                        <div class="modal fade" id="card-3" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Zona Académicos</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--CAROUSEL-->
+                                        <div id="carouselExampleIndicators3" class="carousel carousel-dark slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active text-black" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                            </div>
+                                            <div class="carousel-inner"
+                                                style="width:100%; max-height: 100vh !important;">
+                                                <div class="carousel-item active">
+                                                    <div class="d-flex justify-content-center ">
+                                                        <img src="./assests/images/za-inicio.png" class="img-fluid"
+                                                            alt="Datos Personales">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/za-registro.png" class="img-fluid"
+                                                            alt="Registro de Contenidos">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/za-notas1.png" class="img-fluid"
+                                                            alt="Programación de Notas Parciales">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/za-notas2.png" class=" img-fluid"
+                                                            alt="Ingresar Modificar Notas Parciales">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/za-email.png" class=" img-fluid"
+                                                            alt="Enviar Email">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/za-horario.png" class=" img-fluid"
+                                                            alt="Horario Consolidado Estudiantes">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Anterior</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Siguiente</span>
+                                            </button>
+                                        </div>
+                                        <!--FIN CAROUSEL-->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIN Modal tercera card-->
+                        <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card mt-4 ">
+                                <img src="./assests/images/ce-datos-personales.png" class="card-img-top"
+                                    alt="Consulta Estudiantes">
+                                <div class="card-body justify-content-between" >
+                                    <h5 class="card-title cardTitle">Consulta Estudiante</h5>
+                                    <p class="card-text">Sitio que permite revisar la vida académica de los estudiantes, se puede obtener información personal, avance académico, cuenta corriente, datos de admisión, etc.</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                            data-bs-target="#card-4">
+                                            Ver imágenes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal cuarta card-->
+                        <div class="modal fade" id="card-4" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Consulta Estudiantes</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--CAROUSEL-->
+                                        <div id="carouselExampleIndicators4" class="carousel carousel-dark slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active text-black" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            </div>
+                                            <div class="carousel-inner"
+                                                style="width:100%; max-height: 100vh !important;">
+                                                <div class="carousel-item active">
+                                                    <div class="d-flex justify-content-center ">
+                                                        <img src="./assests/images/ce-datos-personales.png" class="img-fluid"
+                                                            alt="Datos Personales">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ce-ficha-cursada.png" class="img-fluid"
+                                                            alt="Ficha Cursada">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ce-cta-cte.png" class="img-fluid"
+                                                            alt="Cuenta Corriente">
+                                                    </div>
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./assests/images/ce-admision.png" class=" img-fluid"
+                                                            alt="Admisión">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Anterior</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Siguiente</span>
+                                            </button>
+                                        </div>
+                                        <!--FIN CAROUSEL-->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIN Modal cuarta card-->
+                    </div>
+                </div>
+                <!--FIN CARDS LABORALES-->
+            </div>
+        </section>
+
+        <section class="education group  border-bottom  ">
+            <h2 class="text-center">Proyectos Desafío LATAM</h2>
+            <div class="container">
+                <!--CARDS LATAM-->
+                <div class="card-group px-5  ">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card mt-4">
+                                <img src="./assests/images/landing.png" class="card-img-top" alt="Zona Estudiantes">
+                                <div class="card-body">
+                                    <h5 class="card-title cardTitle">Landig Page</h5>
+                                    <p class="card-text">Introducción al uso de div y uso de display inline</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <a href="https://github.com/leofigue/desafio_2_landing" class="btn btn-outline-primary" target="_blank">Ir a Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card mt-4">
+                                <img src="./assests/images/iguana.png" class="card-img-top"
+                                    alt="Justificación Inasistencia">
+                                <div class="card-body">
+                                    <h5 class="card-title cardTitle">Deafío Iguana</h5>
+                                    <p class="card-text">Introducción al uso de Flex</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <a href="https://github.com/leofigue/desafio_3_flex_iguana" class="btn btn-outline-primary" target="_blank">Ir a Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card mt-4">
+                                <img src="./assests/images/bootstrap.png" class="card-img-top" alt="Zona Academicos">
+                                <div class="card-body">
+                                    <h5 class="card-title cardTitle">Desafío Bootstrap</h5>
+                                    <p class="card-text">Introducción al uso de bootstrap</p>
+                                    <div class="d-flex justify-content-center align-items-center border-top mt-2 p-2">
+                                        <a href="https://github.com/leofigue/desafio_4_Bootstrap" class="btn btn-outline-primary" target="_blank">Ir a Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CARDS LATAM-->
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
