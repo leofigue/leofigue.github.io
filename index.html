@@ -7,6 +7,7 @@
     <title>Portafolio - Leonardo Figueroa </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-72x72-precomposed.png" sizes="72x72" />
     <script src="https://kit.fontawesome.com/afa7bcb4b5.js" crossorigin="anonymous"></script>
@@ -279,19 +280,24 @@
                         <div class="col-md-8 contact-info info-card">
                             <div >
                                 <form>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" >
+                                    <div class="input-group mb-4">
+                                        <span class="input-group-text" id="nombre"><i class="bi bi-person-fill"></i></span>
+                                        <input type="text" class="form-control" placeholder="Nombre" aria-describedby="nombre">
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="nombre" class="form-label">Nombre</label>
-                                         <input type="text" class="form-control" id="nombre" >
+                                    <div class="input-group mb-4">
+                                        <span class="input-group-text" id="email"><i class="bi bi-envelope-fill"></i></span>
+                                        <input type="text" class="form-control" placeholder="Correo Electrónico" aria-label="Username"
+                                            aria-describedby="email">
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="mensaje" class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
-                                      </div>
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-pencil-square"></i></span>
+                                        <textarea class="form-control" aria-label="With textarea" placeholder="Mensaje"></textarea>
+                                    </div>
+                                    <div class="mt-3 text-end">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                    
                                 </form>
                             </div>
                         </div>
