@@ -73,13 +73,24 @@ body{
 
 .cv-block.block-intro .avatar{
     width: 250px;
-    height: 250px;
-    background-size: cover;
+    height: vh100;
+    background-size: contain; 
     background-repeat: no-repeat;
     margin: auto;
-    border-radius: 100px;
+    /* border-radius: 100px; */
+    clip-path: circle();
     margin-bottom: 30px;
+    overflow:hidden;
+    
 }
+
+.transicion:hover{
+    transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+}
+
 
 .cv-block.info{
     padding-top: 70px;
