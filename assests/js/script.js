@@ -1,7 +1,8 @@
-$('.navbar').on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
+let ubicacionPrincipal = window.scrollY;
+window.onscroll = function() {
+    let desplazamiento_Actual = window.scrollY;
+    if(desplazamiento_Actual>=280){
+        document.getElementById("img-navbar").style.visibility="visible";}
+    else{
+        document.getElementById("img-navbar").style.visibility="hidden";}
+}
