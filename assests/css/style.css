@@ -26,7 +26,7 @@ body{
 
 .download-template{
     color: #fff;
-    background-color: #ed36ad;
+    background-color: red;
     border: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -36,7 +36,7 @@ body{
 }
 
 .download-template:hover{
-    background-color: #fb5ec4;
+    background-color: red;
 }
 
 .gradient{
@@ -125,7 +125,7 @@ body{
 
 .cv-block.info .group .organization{
     font-size: 0.85em;
-    background-color: #0ea0ff;
+    background-color: blue;
     display: inline-block;
     color: #fff;
     padding: 2px 8px;
@@ -133,7 +133,7 @@ body{
 }
 
 .cv-block.info .education.group .organization{
-    background-color: #20c997; 
+    background-color: green; 
 }
 
 .cv-block.info .group .item{
